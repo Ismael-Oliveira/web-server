@@ -3,5 +3,5 @@
 ## Para executar configure as dependências
 `npm i`
 
-## depois
+## Depois
 `npm start`

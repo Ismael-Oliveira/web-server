@@ -5,7 +5,7 @@ const express = require('express');
 
 const app = express();
 
-const port = process.env.port || 8000;
+const port = process.env.PORT || 8000;
 const publicDirectoryStatic = path.join(__dirname, '../public');
 const viewsPath = path.join(__dirname, '../templates/views');
 const partials = path.join(__dirname, '../templates/partials');
