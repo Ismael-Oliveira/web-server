@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotação</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/cash.png" type="image/x-icon">
+</head>
+<body>
+    <div class="main-content">
+        {{> header}} 
+        <p>Procure por um ativo</p>
+        <form>
+            <input type="text" placeholder="Código do ativo.sa">
+            <button>Procurar</button>
+        </form>
+        <h3></h3>
+        <p>Preço de abertura: <span>R$ 0,00</span></p>
+        <p>Preço de fechamento: <span>R$ 0,00</span></p>
+        <p>Alta do dia: <span>R$ 0,00</span></p>
+        <p>Baixa do dia: <span>R$ 0,00</span></p>
+        <p>Preço atual: <span>R$ 0,00</span></p>
+
+    </div>
+
+    {{> footer}}
+    <script src="./js/script.js"></script>
+</body>
+</html>
